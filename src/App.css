@@ -1,0 +1,17 @@
+input {
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  width: 20rem;
+  font-size: 1.2rem;
+}
+input:focus {
+  background-color: bisque;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  filter: drop-shadow(10px 10px 20px rgb(246, 3, 3));
+}
+h1:hover {
+  filter: drop-shadow(10px 10px 20px rgb(3, 246, 60));
+}

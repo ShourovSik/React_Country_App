@@ -1,0 +1,31 @@
+.country {
+  background-color: antiquewhite;
+  color: #a3180c;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 0.6rem;
+  transition: all 0.3s;
+}
+.country:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(1px 1px 20px rgb(3, 246, 242));
+}
+.flag {
+  width: 10rem;
+  height: 7rem;
+}
+.btn {
+  background-color: orange;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #f61409;
+  color: rgb(239, 238, 237);
+  filter: drop-shadow(1px 1px 20px rgb(246, 3, 68));
+}
